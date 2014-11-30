@@ -1,0 +1,92 @@
+% ****** Start of file thzsamp.tex ******
+% Complie are as follows:
+%
+%  1)  pdflatex thztemplate.tex
+%  2)  bibtex thztemplate
+%  3)  pdflatex thztemplate.tex
+%  4)  pdflatex thztemplate.tex
+%
+\documentclass[aps,prl,twocolumn,amsmath,amssymb]{revtex4}
+%\documentclass[preprint,showpacs,preprintnumbers,amsmath,amssymb]{revtex4}
+\usepackage{graphicx,amsmath,epstopdf}
+%\addtolength{\topmargin}{-1cm}
+%\addtolength{\textheight}{4cm}
+
+\begin{document}
+
+\title{Probing Decoherence with Cavity Quantum Electrodynamics}% Force line breaks with \\
+\author{Timothy Rose-Innes} % \email{timothy.rose-innes@ccc.ox.ac.uk} %\affiliation{}
+\date{\today}% It is always \today, today,           %  but any date may be explicitly specified
+\begin{abstract}
+abstract
+\end{abstract}
+\maketitle
+
+\section{\label{sec:level1}Introduction}
+
+Cavity Quantum Electrodynamics (cavity QED) is the ideal testing ground for theories of quantum decoherence.  High quality cavities allow the interaction of the atom-field system with the external environment to be minimised and well characterised. Most obviously, this provides experimentalists with a model system for quantum control with applications in quantum computing. However, conversely, this also creates an opportunity to rigorously study the theories of quantum decoherence.
+ 
+In cavity QED, the cavity is at its most basic a set of mirrors that can support modes of the electromagnetic field. Of principle interest are optical or microwave resonators.  “QED” or quantum electrodynamics refers to the interaction of quantum matter with those cavity modes. It this report the matter, we will largely be concerned with two-level atoms. It is also important to point out that there are many other analogous physical systems consisting of a resonator coupled to a two level system. These include superconducting qubits coupled to microwave resonators, know as “circuit QED”  and also mechanical systems coupled to cavities. Quantum decoherence is the phenomena of an open system interacting with its environment  leading to the loss of coherences in the system
+
+Work in the field of Cavity QED has over the last few decades been at the forefront of testing our understanding of the quantum world and particularly quantum decoherence. Indeed it is for work in the field that Serge Haroche was jointly  awarded the 2012 noble prize for "for ground-breaking experimental methods that enable measuring and manipulation of individual quantum systems'' This report will consider three of the main experiments performed by the Haroche Group that elucidate aspects quantum decoherence; The decoherence of shrodinger cat states, the observation of quantum jumps and finally its application in quantum feedback. Initially, we will review the basics of Cavity QED and the theories of quantum decoherence
+
+\section{\label{sec:level2}Background: Cavity QED}
+
+\section{\label{sec:level1}Background: Decoherence in Cavity QED}
+
+\section{\label{sec:level1}Decoherence of Schroedinger Cat}
+
+Schrödinger's famous Gedankenexperiment was formulated in order to expose what he saw as the absurdity of the Copenhagen interpreatation of quantum mechanics.  
+
+\subsection{\label{sec:level1}Preparation of the Cat states}
+
+
+We define our Schrödinger cat state as a superposition of two coherent states of light with equal probabilities but different field amplitudes. We will particular be concerned with phase cats where the coherent states in the superposition have the same amplitude $\beta_1$ but with phases differing by $\pi$
+
+\begin{align}
+|\psi_{\mathrm{cat}}\rangle = \frac{1}{\sqrt{2}} (|\beta e^{i\Phi}\rangle+|\beta e^{-i\Phi}\rangle)
+\label{eq:cat1}.
+\end{align}
+
+However this is not the whole picture; the cat must then be entangled with an atom to form the state
+
+\begin{align}
+|\psi_{\mathrm{cat}}\rangle = \frac{1}{\sqrt{2}} (|e\rangle|\beta e^{i\Phi}\rangle+|g\rangle|\beta e^{-i\Phi}\rangle)
+\label{eq:cat2}.
+\end{align}
+
+The setup to experimentally realise this state state is pictured in figure ~\ref{fig:Setup}. A coherent state is injected into the microwave cavity (C) using a classical pulsed source; the coherent state has an amplitude $|\beta| = \sqrt(n_{m})$ where $n_{m}$ is mean photon number. An atom from an atomic beam B are prepared in the state $g\rangle$. The atomic states $|g\rangle$ and $|e\rangle$ refer to the neighbouring circular Rydberg levels utilised as they have a long life-time and couple strongly to the microwave field.  The atoms is then passed through a low quality microwave cavity $\mathrm{R_{1}}$ transforming the state $|g\rangle \rightarrow  (|e\rangle+|g\rangle)/\sqrt{2}$. Auxiliary microwave cavities $\mathrm{R_{1}}$ and $\mathrm{R_{2}}$ together form a Ramsey interferometer that is sensitive to the phase shift in the atomic state superposition caused by the atoms interaction with the cavity. 
+
+The cavity C is detuned slightly from the $|e\rangle \rightarrow |g\rangle$ transition by an amount $\delta$.  The dispersive interaction of the atom and the cavity leads to a phase shift $\pm\Omega/\delta^2$ of the field dependent on the state of the atom. This brings the combined atom and field state into the desired cat state in equation 1~\ref{eq:cat2}.
+
+The second auxiliary cavity R1 applies a microwave pulse %of phase shifted from that of R1 by $\nu$
+remixing the atomic states to form 
+
+\begin{align}
+|\psi_{\mathrm{cat}}\rangle = \frac{1}{2} ((|e\rangle-|g\rangle)|\beta e^{i\Phi}\rangle+(|e\rangle+|g\rangle)|\beta e^{-i\Phi}\rangle)
+\label{eq:cat3}.
+\end{align}
+
+Finally the atoms are detected in the states $|e\rangle$ and $|g\rangle$ using field ionisation detectors and the field projected into  $\frac{1}{\sqrt{2}} (|\beta e^{i\Phi}\rangle+|\beta e^{-i\Phi}\rangle)$
+
+\begin{figure}
+  \centering
+  \includegraphics[width=.8\linewidth]{Figures/fig_ramsey_interf.png}
+\caption{The joint spectral amplitude (JSA) of a (SPDC) biphoton state is product of two functions, the pump function, $\alpha(\omega_A,\omega_B)$ and the phase matching function, $\phi(\omega_A,\omega_B)$.}
+\label{fig:Setup}
+\end{figure}
+Figures/UncorrelatedSHOMI.eps
+
+
+\section{\label{sec:level1}Quantum Jumps}
+
+\section{\label{sec:level1}Quantum Feedback}
+
+
+
+
+
+
+\bibliography{roy}
+
+\end{document}
