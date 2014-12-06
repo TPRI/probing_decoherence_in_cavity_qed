@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.19)  30 NOV 2014 18:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.11.19)  6 DEC 2014 13:24
 entering extended mode
-**C:/Users/trinnes/Dropbox/Physics/DQT/Case*Study/Decoherence*in*Cavity*QED/Rep
-ort/Probing*Decoherence*in*Cavity*QED.tex
+**Probing*Decoherence*in*Cavity*QED.tex
 
-("C:/Users/trinnes/Dropbox/Physics/DQT/Case Study/Decoherence in Cavity QED/Rep
-ort/Probing Decoherence in Cavity QED.tex"
+("C:\Users\trinnes\Dropbox\Physics\DQT\Case Study\Decoherence in Cavity QED\Rep
+ort\Probing Decoherence in Cavity QED.tex"
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\revtex4\revtex4.cls"
@@ -227,10 +226,19 @@ G,.JBIG2,.JB2,.eps]
 ("C:\Users\trinnes\Dropbox\Physics\DQT\Case Study\Decoherence in Cavity QED\Rep
 ort\Probing Decoherence in Cavity QED.aux"
 
+LaTeX Warning: Label `eq:cat1' multiply defined.
+
+
 LaTeX Warning: Label `sec:level1' multiply defined.
 
 
 LaTeX Warning: Label `sec:level1' multiply defined.
+
+
+LaTeX Warning: Label `sec:level1' multiply defined.
+
+
+LaTeX Warning: Label `eq:cat1' multiply defined.
 
 
 LaTeX Warning: Label `sec:level1' multiply defined.
@@ -286,24 +294,33 @@ Missing character: There is no ú in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+Missing character: There is no ¬ in font cmr10!
+Missing character: There is no ¥ in font cmr10!
 Missing character: There is no √ in font cmr10!
 Missing character: There is no ∂ in font cmr10!
-Missing character: There is no √ in font cmr10!
-Missing character: There is no ∂ in font cmr10!
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<Figures/fig_ramsey_interf.png, id=15, 379.4175pt x 132.495pt>
+)
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+ [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Missing character: There is no √ in font cmr10!
+Missing character: There is no ∂ in font cmr10!
+
+<Figures/fig_ramsey_interf.png, id=18, 379.4175pt x 132.495pt>
 File: Figures/fig_ramsey_interf.png Graphic file (type png)
 
 <use Figures/fig_ramsey_interf.png>
-Package pdftex.def Info: Figures/fig_ramsey_interf.png used on input line 74.
+Package pdftex.def Info: Figures/fig_ramsey_interf.png used on input line 106.
 (pdftex.def)             Requested size: 196.80075pt x 68.7239pt.
 
 ("C:\Users\trinnes\Dropbox\Physics\DQT\Case Study\Decoherence in Cavity QED\Rep
@@ -320,28 +337,31 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3943 strings out of 493705
- 51481 string characters out of 3144563
- 127773 words of memory out of 3000000
- 7217 multiletter control sequences out of 15000+200000
- 9699 words of font info for 38 fonts, out of 3000000 for 9000
+ 3946 strings out of 493705
+ 51510 string characters out of 3144563
+ 138773 words of memory out of 3000000
+ 7219 multiletter control sequences out of 15000+200000
+ 10007 words of font info for 39 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,9n,28p,1049b,298s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "Probing Decoherence in Cavity QED.pdf" (2 pages, 243804 byte
+ 42i,10n,28p,968b,300s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb>
+Output written on "Probing Decoherence in Cavity QED.pdf" (2 pages, 274587 byte
 s).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 70 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
